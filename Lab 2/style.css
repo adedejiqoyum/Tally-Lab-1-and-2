@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+#counter {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+button, input {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input {
+    width: 200px;
+}
+
+button:focus, input:focus {
+    outline: none;
+}
+
+#history {
+    margin-top: 20px;
+}
+
+#history h2 {
+    margin-bottom: 10px;
+}
+
+#historyList {
+    list-style-type: none;
+    padding: 0;
+}

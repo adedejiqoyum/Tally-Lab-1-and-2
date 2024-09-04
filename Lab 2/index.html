@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+// Name: Adedeji Tiamiyu
+//Date: March 20, 2021
+//Description: Tally Lab 2
+//Subject: C++ Programming 2
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tally Lab 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tally Counter - Lab 2</h1>
+        <div id="counter">0</div>
+        <div class="controls">
+            <button onclick="increase()">Increase</button>
+            <button onclick="decrease()">Decrease</button>
+            <button onclick="reset()">Reset</button>
+            <input type="number" id="customIncrement" placeholder="Custom Increment" />
+            <button onclick="increaseCustom()">Increase Custom</button>
+        </div>
+        <div id="history">
+            <h2>History</h2>
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+    <script src="tally_lab2.js"></script>
+</body>
+</html>
