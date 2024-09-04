@@ -1,7 +1,7 @@
 **Tally Lab 1 and 2**
 
 **Project Overview**
-The project contains two simple tally counter labs created with HTML, CSS, and JavaScript.
+The project contains two simple tally counters created with HTML, CSS, and JavaScript.
 These labs for C++ Programming Class demonstrate basic web development skills and introduce simple interactivity using JavaScript.
 
 **Lab 1**
